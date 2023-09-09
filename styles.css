@@ -1,4 +1,145 @@
+/* Poppins=font-family: 'Poppins', sans-serif;*/
+/* Recurisve=font-family: 'Recursive', sans-serif;*/
+
 body{
 
+	background: #232830;
+	padding-left: 150px;
+	padding-right: 150px;
 
+}
+
+#header{
+
+	border: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.buttons{
+	background: #232830;
+	color: white;
+	border: 0;
+	font-size: 25px;
+	font-family: 'Poppins', sans-serif;
+}
+
+#atlar{
+	width:20%;
+	display: block;
+	margin: 0 auto;
+	margin-top: 40px;
+	border-radius: 50%;
+}
+
+.header-text{
+
+	display: block;
+	color: #FF7575;
+	font-family: 'Recursive', sans-serif;
+	font-size: 70px;
+	font-style: italic;
+	font-weight: 400;
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 10px;
+	
+}
+
+#title2{
+	color: #FFF;
+	font-family: Poppins;
+	font-size: 29px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-top: 10px;
+	margin-bottom: 75px;
+}
+
+.items{
+	background: white;
+	width: 300px;
+	height: 400px;
+	border-radius: 10%;
+}
+
+.rows{
+	display: flex;
+	justify-content: space-evenly;
+	margin-bottom: 40px;
+}
+
+.item-images{
+	width:250px;
+	height:200px;
+	border: 5px solid pink;
+	margin: 0 auto;
+	margin-top:10px;
+	border-radius: 5%;
+}
+
+h2,h3,h4{
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+h2{
+	font-size: 30px;
+}
+
+h3{
+	font-size: 15px;
+}
+
+
+#item1{
+	background: url("images/TKI.png");
+	background-size: contain;
+}
+
+#item2{
+	background: url("images/PCO.png");
+	background-size: contain;
+}
+
+#item3{
+	background: url("images/MKO.png");
+	background-size: contain;
+}
+
+#item4{
+	background: url("images/DT_CANNON.png");
+	background-size: contain;
+}
+
+#item5{
+	background: url("images/BT_CANNON.png");
+	background-size: contain;
+}
+
+#item6{
+	background: url("images/SUS.png");
+	background-size: contain;
+}
+
+#item7{
+	background: url("images/SDPC.png");
+	background-size: contain;
+}
+
+#item8{
+	background: url("images/MS2.png");
+	background-size: contain;
+}
+
+#item9{
+	background: url("images/STICK.png");
+	background-size: contain;
+}
+
+a{
+	color:black;
 }
